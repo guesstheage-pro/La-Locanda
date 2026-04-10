@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Locanda | Menù Interattivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="header-container">
+            <h1 id="text-logo">La Locanda</h1>
+            <p id="address">📍 Via Santa Maria, 16, Olginate (LC)</p>
+            <div id="status-bar" class="status-inactive">○ Chiuso ora 🌙</div>
+            <p id="phone">📞 Tel: 0341 650506</p>
+        </div>
+        <div class="hub-actions">
+            <a href="tel:0341650506" class="btn hub-btn call-btn">Chiama 📞</a>
+            <a href="https://maps.app.goo.gl/uC1czBGJJqU6bpGBA" target="_blank" class="btn hub-btn maps-btn">Mappa 📍</a>
+        </div>
+    </header>
+
+    <main id="app-container">
+        <div class="loading-spinner">Preparando i tavoli... 🍽️</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
